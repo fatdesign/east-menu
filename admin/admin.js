@@ -230,6 +230,7 @@ function openItemModal(catIdx, itemIdx = null) {
     document.getElementById('item-cat-id').value = catIdx;
     document.getElementById('item-index').value = itemIdx !== null ? itemIdx : '';
     itemForm.reset();
+    document.querySelectorAll('input[name="allergen"]').forEach(cb => cb.checked = false);
 
     if (itemIdx !== null) {
         const item = menuData.categories[catIdx].items[itemIdx];
@@ -241,6 +242,12 @@ function openItemModal(catIdx, itemIdx = null) {
         document.getElementById('item-desc-de').value = item.desc?.de || '';
         document.getElementById('item-desc-en').value = item.desc?.en || '';
         document.getElementById('item-spiciness').value = item.spiciness || '';
+
+        // Allergens
+        const allergens = item.allergens || [];
+        document.querySelectorAll('input[name="allergen"]').forEach(cb => {
+            cb.checked = allergens.includes(cb.value);
+        });
     } else {
         modalTitle.textContent = 'Gericht hinzufügen';
     }
@@ -263,7 +270,8 @@ itemForm.onsubmit = (e) => {
         },
         price: document.getElementById('item-price').value.trim(),
         isSoldOut: document.getElementById('item-available').checked,
-        spiciness: document.getElementById('item-spiciness').value
+        spiciness: document.getElementById('item-spiciness').value,
+        allergens: Array.from(document.querySelectorAll('input[name="allergen"]:checked')).map(cb => cb.value)
     };
 
     const descDe = document.getElementById('item-desc-de').value.trim();
