@@ -32,44 +32,59 @@
         },
         {
           "name": {
-            "de": "Nyonya Curry"
-          },
-          "desc": {
-            "de": "Malaysisches Curry | Hühnerfleisch | Kurkuma | Kokosmilch"
+            "de": "Nyonya Curry",
+            "en": ""
           },
           "price": "12,9",
+          "isSoldOut": true,
+          "isVegan": false,
+          "spiciness": "",
           "allergens": [
             "D",
             "R"
-          ]
+          ],
+          "desc": {
+            "de": "Malaysisches Curry | Hühnerfleisch | Kurkuma | Kokosmilch",
+            "en": ""
+          }
         },
         {
           "name": {
-            "de": "Black Pepper Beef"
-          },
-          "desc": {
-            "de": "Rinderfilet | Schwarze Pfeffersauce | Saisongemüse"
+            "de": "Black Pepper Beef",
+            "en": ""
           },
           "price": "16,9",
+          "isSoldOut": true,
+          "isVegan": false,
+          "spiciness": "",
           "allergens": [
             "A",
             "F",
             "N"
-          ]
+          ],
+          "desc": {
+            "de": "Rinderfilet | Schwarze Pfeffersauce | Saisongemüse",
+            "en": ""
+          }
         },
         {
           "name": {
-            "de": "Bulgogi"
-          },
-          "desc": {
-            "de": "Mariniertes Rindfleisch | Kimchi | Koreanische Art"
+            "de": "Bulgogi",
+            "en": ""
           },
           "price": "14,9",
+          "isSoldOut": true,
+          "isVegan": false,
+          "spiciness": "",
           "allergens": [
             "A",
             "F",
             "N"
-          ]
+          ],
+          "desc": {
+            "de": "Mariniertes Rindfleisch | Kimchi | Koreanische Art",
+            "en": ""
+          }
         },
         {
           "name": {
