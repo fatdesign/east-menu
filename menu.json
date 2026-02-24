@@ -13,87 +13,137 @@
       "items": [
         {
           "name": {
-            "de": "Basil Chicken AFN"
+            "de": "Basil Chicken"
           },
           "desc": {
             "de": "Hühnerfleisch | Basilikum | Saisongemüse"
           },
-          "price": "12,9"
+          "price": "12,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Nyonya Curry DR"
+            "de": "Nyonya Curry"
           },
           "desc": {
             "de": "Malaysisches Curry | Hühnerfleisch | Kurkuma | Kokosmilch"
           },
-          "price": "12,9"
+          "price": "12,9",
+          "allergens": [
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Black Pepper Beef AFN"
+            "de": "Black Pepper Beef"
           },
           "desc": {
             "de": "Rinderfilet | Schwarze Pfeffersauce | Saisongemüse"
           },
-          "price": "16,9"
+          "price": "16,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Bulgogi AFN"
+            "de": "Bulgogi"
           },
           "desc": {
             "de": "Mariniertes Rindfleisch | Kimchi | Koreanische Art"
           },
-          "price": "14,9"
+          "price": "14,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Gaeng Phed ADR"
+            "de": "Gaeng Phed"
           },
           "desc": {
             "de": "Rotes Thaicurry | Ente"
           },
-          "price": "15,9"
+          "price": "15,9",
+          "allergens": [
+            "A",
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Yaki Udon AFN (ohne Reis)"
+            "de": "Yaki Udon (ohne Reis)"
           },
           "desc": {
             "de": "Wok Udon-Nudeln | Saisongemüse"
           },
-          "price": "10,9"
+          "price": "10,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Wok Saisongemüse AFN"
+            "de": "Wok Saisongemüse"
           },
-          "price": "10,9"
+          "price": "10,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Poke Bowl Lachs ADFN (ohne Salat)"
+            "de": "Poke Bowl Lachs (ohne Salat)"
           },
           "desc": {
             "de": "Sushi-Reis | Avocado | Edamame | Kalt serviert Gemüse"
           },
-          "price": "12,9"
+          "price": "12,9",
+          "allergens": [
+            "A",
+            "D",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Poke Bowl Gemüse ADFN (ohne Salat)"
+            "de": "Poke Bowl Gemüse (ohne Salat)"
           },
-          "price": "10,9"
+          "price": "10,9",
+          "allergens": [
+            "A",
+            "D",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Asam Gulai DR"
+            "de": "Asam Gulai"
           },
           "desc": {
             "de": "Malaysisches Curry | Garnelen | Kokosmilch"
           },
-          "price": "15,9"
+          "price": "15,9",
+          "allergens": [
+            "D",
+            "R"
+          ]
         }
       ]
     },
@@ -105,22 +155,31 @@
       "items": [
         {
           "name": {
-            "de": "Miso Shiru DF"
+            "de": "Miso Shiru"
           },
           "desc": {
             "de": "Tofu | Wakame | Frühlingszwiebeln | Pilze"
           },
-          "price": "5,9"
+          "price": "5,9",
+          "allergens": [
+            "D",
+            "F"
+          ]
         },
         {
           "name": {
-            "de": "Tom Yam Gung Soup BDR"
+            "de": "Tom Yam Gung Soup"
           },
           "desc": {
             "de": "Frische Miesmuscheln | Garnelen | Zitronengras | Basilikum"
           },
           "price": "8,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "B",
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
@@ -133,12 +192,16 @@
         },
         {
           "name": {
-            "de": "Tom Kha Gai BD"
+            "de": "Tom Kha Gai"
           },
           "desc": {
             "de": "Kokosmilch | Huhn | Zitronengras | Basilikum"
           },
-          "price": "7,9"
+          "price": "7,9",
+          "allergens": [
+            "B",
+            "D"
+          ]
         }
       ]
     },
@@ -150,40 +213,58 @@
       "items": [
         {
           "name": {
-            "de": "Wakame NR"
+            "de": "Wakame"
           },
           "desc": {
             "de": "Japanischer Algensalat"
           },
-          "price": "5,9"
+          "price": "5,9",
+          "allergens": [
+            "N",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Babyspinat AFN"
+            "de": "Babyspinat"
           },
           "desc": {
             "de": "Sesamdressing"
           },
-          "price": "6,2"
+          "price": "6,2",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Fitness-Salad AFN"
+            "de": "Fitness-Salad"
           },
           "desc": {
             "de": "Salatmix | Hausdressing"
           },
-          "price": "7,9"
+          "price": "7,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Kimchi DR"
+            "de": "Kimchi"
           },
           "desc": {
             "de": "Eingelegter Chinakohl | Koreanische Art"
           },
           "price": "5,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
@@ -196,21 +277,33 @@
         },
         {
           "name": {
-            "de": "Yuzu Sake ADFN"
+            "de": "Yuzu Sake"
           },
           "desc": {
             "de": "Roher Lachs | Yuzu-Wasabi-Sauce"
           },
-          "price": "11,9"
+          "price": "11,9",
+          "allergens": [
+            "A",
+            "D",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Yuzu Maguro ADFN"
+            "de": "Yuzu Maguro"
           },
           "desc": {
             "de": "Roher Thunfisch | Yuzu-Wasabi-Sauce"
           },
-          "price": "13,9"
+          "price": "13,9",
+          "allergens": [
+            "A",
+            "D",
+            "F",
+            "N"
+          ]
         }
       ]
     },
@@ -222,34 +315,49 @@
       "items": [
         {
           "name": {
-            "de": "Edamame F"
+            "de": "Edamame"
           },
           "desc": {
             "de": "Grüne Sojabohnen gesalzen"
           },
-          "price": "5,5"
+          "price": "5,5",
+          "allergens": [
+            "F"
+          ]
         },
         {
           "name": {
-            "de": "Takoyaki ACGRE"
+            "de": "Takoyaki"
           },
           "desc": {
             "de": "Oktopusbällchen | Bonitoflocken | Okonomi-Sauce"
           },
-          "price": "6,9"
+          "price": "6,9",
+          "allergens": [
+            "A",
+            "C",
+            "E",
+            "G",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Karaage ACG"
+            "de": "Karaage"
           },
           "desc": {
             "de": "Japanische Hühnerstücke | Japanische Mayonnaise"
           },
-          "price": "6,9"
+          "price": "6,9",
+          "allergens": [
+            "A",
+            "C",
+            "G"
+          ]
         },
         {
           "name": {
-            "de": "Hot Chili Wings ACG",
+            "de": "Hot Chili Wings",
             "en": ""
           },
           "price": "6,9",
@@ -258,89 +366,142 @@
           "desc": {
             "de": "Hühnerflügel im knusprigen Chilimantel",
             "en": ""
-          }
+          },
+          "allergens": [
+            "A",
+            "C",
+            "G"
+          ]
         },
         {
           "name": {
-            "de": "Ebi Tempura AB"
+            "de": "Ebi Tempura"
           },
           "desc": {
             "de": "Garnelen im knusprigen Tempuramantel"
           },
-          "price": "7,9"
+          "price": "7,9",
+          "allergens": [
+            "A",
+            "B"
+          ]
         },
         {
           "name": {
-            "de": "Satey DEGR"
+            "de": "Satey"
           },
           "desc": {
             "de": "Hühnerspieß aus ausgelöster Hühnerkeule | Erdnuss-Sauce"
           },
-          "price": "7,9"
+          "price": "7,9",
+          "allergens": [
+            "D",
+            "E",
+            "G",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Toriyaki ANO"
+            "de": "Toriyaki"
           },
           "desc": {
             "de": "Hühnerspieß aus ausgelöster Hühnerkeule | Teriyaki-Sauce"
           },
-          "price": "6,9"
+          "price": "6,9",
+          "allergens": [
+            "A",
+            "N",
+            "O"
+          ]
         },
         {
           "name": {
-            "de": "Gyoza Gemüse A (5 Stück)"
+            "de": "Gyoza Gemüse (5 Stück)"
           },
-          "price": "5,9"
+          "price": "5,9",
+          "allergens": [
+            "A"
+          ]
         },
         {
           "name": {
-            "de": "Gyoza Huhn A"
+            "de": "Gyoza Huhn"
           },
-          "price": "6,9"
+          "price": "6,9",
+          "allergens": [
+            "A"
+          ]
         },
         {
           "name": {
-            "de": "Gyoza Schwein A"
+            "de": "Gyoza Schwein"
           },
-          "price": "6,9"
+          "price": "6,9",
+          "allergens": [
+            "A"
+          ]
         },
         {
           "name": {
-            "de": "Kung Fu DouFu AFN"
+            "de": "Kung Fu DouFu"
           },
           "desc": {
             "de": "Gegrillter Tofu | Chilipulver"
           },
           "price": "7,5",
-          "spiciness": "1"
+          "spiciness": "1",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Tuna Tataki ADFN"
+            "de": "Tuna Tataki"
           },
           "desc": {
             "de": "Thunfisch | Balsamico"
           },
-          "price": "14,9"
+          "price": "14,9",
+          "allergens": [
+            "A",
+            "D",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Hotate ABDFR (3 Stück)"
+            "de": "Hotate (3 Stück)"
           },
           "desc": {
             "de": "Gegrillte Jakobsmuscheln | Balsamico"
           },
-          "price": "14,9"
+          "price": "14,9",
+          "allergens": [
+            "A",
+            "B",
+            "D",
+            "F",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Smoked Duck DEGR"
+            "de": "Smoked Duck"
           },
           "desc": {
             "de": "Gerächerte Ente | Spezial-Sauce"
           },
-          "price": "12,9"
+          "price": "12,9",
+          "allergens": [
+            "D",
+            "E",
+            "G",
+            "R"
+          ]
         }
       ]
     },
@@ -352,174 +513,262 @@
       "items": [
         {
           "name": {
-            "de": "Duck AFN"
+            "de": "Duck"
           },
           "desc": {
             "de": "Gegrillte Entenbrust | Mandarin-Pfannkuchen | Spezialsauce"
           },
-          "price": "19,9"
+          "price": "19,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Gaeng Phed ADR (Hühnerfleisch)"
+            "de": "Gaeng Phed (Hühnerfleisch)"
           },
           "desc": {
             "de": "Rotes Thaicurry | Kokosmilch | Zitronengras | Saisongemüse"
           },
           "price": "15,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "A",
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Gaeng Phed ADR (Ente)"
+            "de": "Gaeng Phed (Ente)"
           },
           "desc": {
             "de": "Gegrillte Entenbrust | Rotes Thaicurry"
           },
           "price": "19,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "A",
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Nyonya Curry DR (Hühnerfleisch)"
+            "de": "Nyonya Curry (Hühnerfleisch)"
           },
           "desc": {
             "de": "Malaysisches Curry | Kurkuma | Kokosmilch | Zitronengras"
           },
           "price": "15,9",
-          "spiciness": "1"
+          "spiciness": "1",
+          "allergens": [
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Nyonya Curry DR (Rinderfilet)"
+            "de": "Nyonya Curry (Rinderfilet)"
           },
           "price": "26,9",
-          "spiciness": "1"
+          "spiciness": "1",
+          "allergens": [
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Asam Gulai DR (Garnelen)"
+            "de": "Asam Gulai (Garnelen)"
           },
           "desc": {
             "de": "Malaysisches Curry | Kokosmilch | Galgant"
           },
           "price": "20,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Asam Gulai DR (Jakobsmuschel)"
+            "de": "Asam Gulai (Jakobsmuschel)"
           },
           "price": "25,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Black Pepper Beef AFN"
+            "de": "Black Pepper Beef"
           },
           "desc": {
             "de": "Rinderfilet | Schwarze Pfeffersauce | Saisongemüse"
           },
-          "price": "26,9"
+          "price": "26,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Chili Beef AFN"
+            "de": "Chili Beef"
           },
           "desc": {
             "de": "Rinderfilet | Szechuan Chili & Pfeffer"
           },
           "price": "26,9",
-          "spiciness": "3"
+          "spiciness": "3",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Bulgogi AFN"
+            "de": "Bulgogi"
           },
           "desc": {
             "de": "Mariniertes Rindfleisch | Koreanische Art | Knackiger Salat | Bao Brötchen"
           },
-          "price": "20,9"
+          "price": "20,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Gegrillter Lachs AD"
+            "de": "Gegrillter Lachs"
           },
           "desc": {
             "de": "Mit Saisongemüse"
           },
-          "price": "22,9"
+          "price": "22,9",
+          "allergens": [
+            "A",
+            "D"
+          ]
         },
         {
           "name": {
-            "de": "King Prawns ACFB"
+            "de": "King Prawns"
           },
           "desc": {
             "de": "Riesengarnelen | Hausgemachte Eier-Sauce | Trüffelöl"
           },
-          "price": "20,9"
+          "price": "20,9",
+          "allergens": [
+            "A",
+            "B",
+            "C",
+            "F"
+          ]
         },
         {
           "name": {
-            "de": "Basil Chicken AFN"
+            "de": "Basil Chicken"
           },
           "desc": {
             "de": "Hühnerfleisch | Basilikum | Saisongemüse"
           },
-          "price": "15,9"
+          "price": "15,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Black Pepper Chicken AFN"
+            "de": "Black Pepper Chicken"
           },
           "desc": {
             "de": "Hühnerfleisch | Schwarze Pfeffersauce | Saisongemüse"
           },
-          "price": "15,9"
+          "price": "15,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Dou Fu Mix AFN"
+            "de": "Dou Fu Mix"
           },
           "desc": {
             "de": "Verschiedene Tofu-Arten in Wok-Gemüse"
           },
-          "price": "15,9"
+          "price": "15,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Wok Saisongemüse AFN"
+            "de": "Wok Saisongemüse"
           },
-          "price": "13,9"
+          "price": "13,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Kimchi Jjigae B"
+            "de": "Kimchi Jjigae"
           },
           "desc": {
             "de": "Tofu | Eingelegter Chinakohl | Koreanische Art"
           },
           "price": "14,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "B"
+          ]
         },
         {
           "name": {
-            "de": "Tom Yam Seafood BDR"
+            "de": "Tom Yam Seafood"
           },
           "desc": {
             "de": "Frische Miesmuscheln | Garnelen | Jakobsmuscheln | Zitronengras | Basilikum"
           },
           "price": "22,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "B",
+            "D",
+            "R"
+          ]
         },
         {
           "name": {
-            "de": "Gegrillte Kabeljauloins AD"
+            "de": "Gegrillte Kabeljauloins"
           },
           "desc": {
             "de": "mit Saisongemüse"
           },
-          "price": "25,9"
+          "price": "25,9",
+          "allergens": [
+            "A",
+            "D"
+          ]
         }
       ]
     },
@@ -531,42 +780,70 @@
       "items": [
         {
           "name": {
-            "de": "Bulgogi Bowl AFN"
+            "de": "Bulgogi Bowl"
           },
           "desc": {
             "de": "Mariniertes Rindfleisch | Gemüse | Reis"
           },
-          "price": "16,9"
+          "price": "16,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Duck Bowl AFN"
+            "de": "Duck Bowl"
           },
           "desc": {
             "de": "Gegrillte Entenbrust | Spezialsauce | Reis"
           },
-          "price": "16,9"
+          "price": "16,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Poke Bowl Thunfisch ADFN"
+            "de": "Poke Bowl Thunfisch"
           },
           "desc": {
             "de": "Sushi-Reis | Avocado | Edamame | Kalt serviert"
           },
-          "price": "18,9"
+          "price": "18,9",
+          "allergens": [
+            "A",
+            "D",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Poke Bowl Lachs ADFN"
+            "de": "Poke Bowl Lachs"
           },
-          "price": "15,9"
+          "price": "15,9",
+          "allergens": [
+            "A",
+            "D",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Poke Bowl Gemüse ADFN"
+            "de": "Poke Bowl Gemüse"
           },
-          "price": "13,9"
+          "price": "13,9",
+          "allergens": [
+            "A",
+            "D",
+            "F",
+            "N"
+          ]
         }
       ]
     },
@@ -581,31 +858,46 @@
       "items": [
         {
           "name": {
-            "de": "Tom Yam Gung ABD"
+            "de": "Tom Yam Gung"
           },
           "desc": {
             "de": "Nudelsuppe | Frische Miesmuscheln | Garnelen | Zitronengras | Basilikum"
           },
           "price": "19,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "A",
+            "B",
+            "D"
+          ]
         },
         {
           "name": {
-            "de": "Beef Udon AFN"
+            "de": "Beef Udon"
           },
           "desc": {
             "de": "Rinderfilet | Schwarze Pfeffersauce | Saisongemüse"
           },
-          "price": "24,9"
+          "price": "24,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Yaki Udon AFN"
+            "de": "Yaki Udon"
           },
           "desc": {
             "de": "Saisongemüse"
           },
-          "price": "13,9"
+          "price": "13,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         }
       ]
     },
@@ -623,18 +915,24 @@
         },
         {
           "name": {
-            "de": "Mandarin Pfannkuchen A (6 Stück)"
+            "de": "Mandarin Pfannkuchen (6 Stück)"
           },
           "desc": {
             "de": "Hauchdünne Teigfladen"
           },
-          "price": "2,9"
+          "price": "2,9",
+          "allergens": [
+            "A"
+          ]
         },
         {
           "name": {
-            "de": "Bao-Brötchen A (2 Stück)"
+            "de": "Bao-Brötchen (2 Stück)"
           },
-          "price": "3,9"
+          "price": "3,9",
+          "allergens": [
+            "A"
+          ]
         }
       ]
     },
@@ -646,121 +944,201 @@
       "items": [
         {
           "name": {
-            "de": "Veggie Roll ACN"
+            "de": "Veggie Roll"
           },
           "desc": {
             "de": "Gurke | Avocado | Babyspinat | Fruchtige Sauce"
           },
-          "price": "10,9"
+          "price": "10,9",
+          "allergens": [
+            "A",
+            "C",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "California Roll ABFCN"
+            "de": "California Roll"
           },
           "desc": {
             "de": "Gurke | Avocado | Japanische Mayonnaise | Ebi | Kaviar | Babyspinat"
           },
-          "price": "16,9"
+          "price": "16,9",
+          "allergens": [
+            "A",
+            "B",
+            "C",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Crunchy Ebi Roll ABCEGN"
+            "de": "Crunchy Ebi Roll"
           },
           "desc": {
             "de": "Ebi Tempura | Gurke | Frischkäse | Röstzwiebel | Babyspinat"
           },
-          "price": "17,9"
+          "price": "17,9",
+          "allergens": [
+            "A",
+            "B",
+            "C",
+            "E",
+            "G",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Dragon Roll ADN"
+            "de": "Dragon Roll"
           },
           "desc": {
             "de": "Gurke | Avocado | Lachs | Japanische Mayonnaise"
           },
-          "price": "17,9"
+          "price": "17,9",
+          "allergens": [
+            "A",
+            "D",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Rainbow Roll ABCDN"
+            "de": "Rainbow Roll"
           },
           "desc": {
             "de": "Ebi | Lachs | Thunfisch | Avocado | Gurke | Babyspinat"
           },
-          "price": "19,9"
+          "price": "19,9",
+          "allergens": [
+            "A",
+            "B",
+            "C",
+            "D",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Crazy Salmon Roll ADEHNO"
+            "de": "Crazy Salmon Roll"
           },
           "desc": {
             "de": "Flambierter Lachs | Roher Lachs | Avocado | Kaviar | Teriyaki-Sauce"
           },
-          "price": "19,9"
+          "price": "19,9",
+          "allergens": [
+            "A",
+            "D",
+            "E",
+            "H",
+            "N",
+            "O"
+          ]
         },
         {
           "name": {
-            "de": "Volcano Spice Roll ACDN"
+            "de": "Volcano Spice Roll"
           },
           "desc": {
             "de": "Thunfisch | Avocado | Kaviar | Scharfe Mayonnaise"
           },
           "price": "19,9",
-          "spiciness": "2"
+          "spiciness": "2",
+          "allergens": [
+            "A",
+            "C",
+            "D",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Toriyaki Roll AFNO"
+            "de": "Toriyaki Roll"
           },
           "desc": {
             "de": "Ausgelöste Hühnerkeule | Gurke | Avocado | Teriyaki-Sauce | Babyspinat | Reispapier"
           },
-          "price": "14,9"
+          "price": "14,9",
+          "allergens": [
+            "A",
+            "F",
+            "N",
+            "O"
+          ]
         },
         {
           "name": {
-            "de": "Sake - Avocado Roll ADFCN"
+            "de": "Sake - Avocado Roll"
           },
           "desc": {
             "de": "Lachs | Avocado"
           },
-          "price": "12,9"
+          "price": "12,9",
+          "allergens": [
+            "A",
+            "C",
+            "D",
+            "F",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Smoked Salmon ADN"
+            "de": "Smoked Salmon"
           },
           "desc": {
             "de": "Geräucherter Lachs | Rucola | Parmesan | Avocado | Roher Lachs"
           },
-          "price": "19,9"
+          "price": "19,9",
+          "allergens": [
+            "A",
+            "D",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Carpaccio Roll AHN"
+            "de": "Carpaccio Roll"
           },
           "desc": {
             "de": "Rohes, luftgetrocknetes Rind | Rucola | Parmesan | Gurke | Avocado"
           },
-          "price": "19,9"
+          "price": "19,9",
+          "allergens": [
+            "A",
+            "H",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Karaage Roll ACGN"
+            "de": "Karaage Roll"
           },
           "desc": {
             "de": "Japanische Hühnerstücke | Avocado | Hausgemachte Mayo | Röstzwiebel"
           },
-          "price": "14,9"
+          "price": "14,9",
+          "allergens": [
+            "A",
+            "C",
+            "G",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Duck Roll AFN"
+            "de": "Duck Roll"
           },
           "desc": {
             "de": "Geräucherte Ente | Gurke | Spezial-Sauce"
           },
-          "price": "19,9"
+          "price": "19,9",
+          "allergens": [
+            "A",
+            "F",
+            "N"
+          ]
         }
       ]
     },
@@ -772,30 +1150,39 @@
       "items": [
         {
           "name": {
-            "de": "Sake D"
+            "de": "Sake"
           },
           "desc": {
             "de": "Lachs"
           },
-          "price": "5,9"
+          "price": "5,9",
+          "allergens": [
+            "D"
+          ]
         },
         {
           "name": {
-            "de": "Maguro D"
+            "de": "Maguro"
           },
           "desc": {
             "de": "Thunfisch"
           },
-          "price": "6,9"
+          "price": "6,9",
+          "allergens": [
+            "D"
+          ]
         },
         {
           "name": {
-            "de": "Ebi B"
+            "de": "Ebi"
           },
           "desc": {
             "de": "Garnelen"
           },
-          "price": "5,9"
+          "price": "5,9",
+          "allergens": [
+            "B"
+          ]
         },
         {
           "name": {
@@ -814,12 +1201,16 @@
         },
         {
           "name": {
-            "de": "Hotate BR"
+            "de": "Hotate"
           },
           "desc": {
             "de": "Jakobsmuschel"
           },
-          "price": "8,9"
+          "price": "8,9",
+          "allergens": [
+            "B",
+            "R"
+          ]
         }
       ]
     },
@@ -831,21 +1222,27 @@
       "items": [
         {
           "name": {
-            "de": "Sake klein D"
+            "de": "Sake klein"
           },
           "desc": {
             "de": "4 Nigiri + 4 Veggie Rolls"
           },
-          "price": "14,9"
+          "price": "14,9",
+          "allergens": [
+            "D"
+          ]
         },
         {
           "name": {
-            "de": "Maguro klein D"
+            "de": "Maguro klein"
           },
           "desc": {
             "de": "4 Nigiri + 4 Veggie Rolls"
           },
-          "price": "16,9"
+          "price": "16,9",
+          "allergens": [
+            "D"
+          ]
         },
         {
           "name": {
@@ -858,30 +1255,39 @@
         },
         {
           "name": {
-            "de": "Ebi klein B"
+            "de": "Ebi klein"
           },
           "desc": {
             "de": "4 Nigiri + 4 Veggie Rolls"
           },
-          "price": "14,9"
+          "price": "14,9",
+          "allergens": [
+            "B"
+          ]
         },
         {
           "name": {
-            "de": "Sake groß D"
+            "de": "Sake groß"
           },
           "desc": {
             "de": "8 Nigiri + 4 Veggie Rolls"
           },
-          "price": "21,9"
+          "price": "21,9",
+          "allergens": [
+            "D"
+          ]
         },
         {
           "name": {
-            "de": "Maguro groß D"
+            "de": "Maguro groß"
           },
           "desc": {
             "de": "8 Nigiri + 4 Veggie Rolls"
           },
-          "price": "23,9"
+          "price": "23,9",
+          "allergens": [
+            "D"
+          ]
         },
         {
           "name": {
@@ -894,21 +1300,29 @@
         },
         {
           "name": {
-            "de": "Ebi groß B"
+            "de": "Ebi groß"
           },
           "desc": {
             "de": "8 Nigiri + 4 Veggie Rolls"
           },
-          "price": "21,9"
+          "price": "21,9",
+          "allergens": [
+            "B"
+          ]
         },
         {
           "name": {
-            "de": "Set BDR"
+            "de": "Set"
           },
           "desc": {
             "de": "12 Nigiri + 8 Veggie Rolls (Sake | Maguro | Gyuniku | Ebi | Avocado | Hotate)"
           },
-          "price": "42,9"
+          "price": "42,9",
+          "allergens": [
+            "B",
+            "D",
+            "R"
+          ]
         }
       ]
     },
@@ -920,15 +1334,21 @@
       "items": [
         {
           "name": {
-            "de": "Sake D"
+            "de": "Sake"
           },
-          "price": "10,9"
+          "price": "10,9",
+          "allergens": [
+            "D"
+          ]
         },
         {
           "name": {
-            "de": "Maguro D"
+            "de": "Maguro"
           },
-          "price": "13,9"
+          "price": "13,9",
+          "allergens": [
+            "D"
+          ]
         }
       ]
     },
@@ -940,66 +1360,96 @@
       "items": [
         {
           "name": {
-            "de": "Matcha Creme Brulee CG"
+            "de": "Matcha Creme Brulee"
           },
           "desc": {
             "de": "Grüner Tee Creme | Karamelkruste"
           },
-          "price": "8,9"
+          "price": "8,9",
+          "allergens": [
+            "C",
+            "G"
+          ]
         },
         {
           "name": {
-            "de": "Mochi FGNH"
+            "de": "Mochi"
           },
           "desc": {
             "de": "Japanischer Klebreiskuchen"
           },
-          "price": "8,9"
+          "price": "8,9",
+          "allergens": [
+            "F",
+            "G",
+            "H",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Mochi Eis FGN"
+            "de": "Mochi Eis"
           },
           "desc": {
             "de": "Klebreiskuchen | Eisfüllung"
           },
-          "price": "8,9"
+          "price": "8,9",
+          "allergens": [
+            "F",
+            "G",
+            "N"
+          ]
         },
         {
           "name": {
-            "de": "Cocos Panna Cotta G"
+            "de": "Cocos Panna Cotta"
           },
           "desc": {
             "de": "Kokosmilch | Sahne"
           },
-          "price": "7,9"
+          "price": "7,9",
+          "allergens": [
+            "G"
+          ]
         },
         {
           "name": {
-            "de": "Evergreen G"
+            "de": "Evergreen"
           },
           "desc": {
             "de": "Kokosmilch | Sagoperlen | Pandan | Lychee"
           },
-          "price": "7,9"
+          "price": "7,9",
+          "allergens": [
+            "G"
+          ]
         },
         {
           "name": {
-            "de": "Fujisan FHO"
+            "de": "Fujisan"
           },
           "desc": {
             "de": "Japanischer Sakewein | Zitroneneis"
           },
-          "price": "8,5"
+          "price": "8,5",
+          "allergens": [
+            "F",
+            "H",
+            "O"
+          ]
         },
         {
           "name": {
-            "de": "Sago - Malaysisches Dessert GH"
+            "de": "Sago - Malaysisches Dessert"
           },
           "desc": {
             "de": "Kokosmilch | Kokoseis | Sagoperlen | Pandan"
           },
-          "price": "7,9"
+          "price": "7,9",
+          "allergens": [
+            "G",
+            "H"
+          ]
         }
       ]
     },
@@ -1270,27 +1720,39 @@
         },
         {
           "name": {
-            "de": "Mineralwasser still 0,33 L"
+            "de": "Mineralwasser still 0,33"
           },
-          "price": "3,5"
+          "price": "3,5",
+          "allergens": [
+            "L"
+          ]
         },
         {
           "name": {
-            "de": "Mineralwasser still 0,75 L"
+            "de": "Mineralwasser still 0,75"
           },
-          "price": "6,9"
+          "price": "6,9",
+          "allergens": [
+            "L"
+          ]
         },
         {
           "name": {
-            "de": "Mineralwasser prickelnd 0,33 L"
+            "de": "Mineralwasser prickelnd 0,33"
           },
-          "price": "3,5"
+          "price": "3,5",
+          "allergens": [
+            "L"
+          ]
         },
         {
           "name": {
-            "de": "Mineralwasser prickelnd 0,75 L"
+            "de": "Mineralwasser prickelnd 0,75"
           },
-          "price": "6,9"
+          "price": "6,9",
+          "allergens": [
+            "L"
+          ]
         }
       ]
     },
@@ -1364,15 +1826,21 @@
       "items": [
         {
           "name": {
-            "de": "Espresso Macchiato G"
+            "de": "Espresso Macchiato"
           },
-          "price": "3,9"
+          "price": "3,9",
+          "allergens": [
+            "G"
+          ]
         },
         {
           "name": {
-            "de": "Espresso Macchiato doppelt G"
+            "de": "Espresso Macchiato doppelt"
           },
-          "price": "5,9"
+          "price": "5,9",
+          "allergens": [
+            "G"
+          ]
         },
         {
           "name": {
@@ -1388,21 +1856,30 @@
         },
         {
           "name": {
-            "de": "Verlängerter G"
+            "de": "Verlängerter"
           },
-          "price": "4,5"
+          "price": "4,5",
+          "allergens": [
+            "G"
+          ]
         },
         {
           "name": {
-            "de": "Cappuccino G"
+            "de": "Cappuccino"
           },
-          "price": "4,9"
+          "price": "4,9",
+          "allergens": [
+            "G"
+          ]
         },
         {
           "name": {
-            "de": "Cafe Latte G"
+            "de": "Cafe Latte"
           },
-          "price": "5,5"
+          "price": "5,5",
+          "allergens": [
+            "G"
+          ]
         },
         {
           "name": {
@@ -1412,9 +1889,12 @@
         },
         {
           "name": {
-            "de": "Ba Bao Cha 8 Schätze Tee P"
+            "de": "Ba Bao Cha 8 Schätze Tee"
           },
-          "price": "5,5"
+          "price": "5,5",
+          "allergens": [
+            "P"
+          ]
         },
         {
           "name": {
