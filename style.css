@@ -1039,35 +1039,83 @@ nav.scrolled {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background: var(--color-black);
     z-index: 9999;
     pointer-events: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity 1.2s cubic-bezier(0.25, 1, 0.5, 1), visibility 1.2s cubic-bezier(0.25, 1, 0.5, 1);
+    overflow: hidden;
+}
+
+/* Two panels that meet in the middle */
+.page-transition::before,
+.page-transition::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50.5%;
+    /* Slight overlap to prevent gap */
+    height: 100%;
+    background: #000;
+    transition: transform 1.2s cubic-bezier(0.77, 0, 0.175, 1);
+    z-index: 1;
+}
+
+.page-transition::before {
+    left: 0;
+    transform: translateX(0);
+}
+
+.page-transition::after {
+    right: 0;
+    transform: translateX(0);
+}
+
+/* When transition is NOT active (i.e., revealing the page) */
+.page-transition:not(.active)::before {
+    transform: translateX(-100%);
+}
+
+.page-transition:not(.active)::after {
+    transform: translateX(100%);
 }
 
 .page-transition.active {
-    opacity: 1;
-    visibility: visible;
     pointer-events: all;
 }
 
+.page-transition.active::before,
+.page-transition.active::after {
+    transform: translateX(0);
+}
+
 .transition-logo {
-    height: 60px;
+    height: 80px;
     width: auto;
+    z-index: 2;
     opacity: 0;
-    transform: scale(0.95) translateY(10px);
-    transition: opacity 0.8s ease, transform 1s cubic-bezier(0.25, 1, 0.5, 1);
+    transform: scale(0.8);
+    filter: brightness(0) invert(1);
+    /* Ensure logo is white/visible on black */
+    transition: opacity 0.8s ease, transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .page-transition.active .transition-logo {
     opacity: 1;
-    transform: scale(1) translateY(0);
-    transition-delay: 0.3s;
+    transform: scale(1);
+    animation: logoPulse 2s ease-in-out infinite alternate;
+}
+
+@keyframes logoPulse {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(1.1);
+        opacity: 0.8;
+    }
 }
 
 /* ── Creative Philosophy Section ── */

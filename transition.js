@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 1. Reveal the new page (Curtain Rise)
     // The HTML starts with the panels covering the screen (active class).
-    // We remove it to trigger the CSS transition that slides them away.
+    // We wait a bit longer for a dramatic effect.
     setTimeout(() => {
         transitionEl.classList.remove('active');
-    }, 100);
+    }, 800);
 
     // 2. Intercept internal links (Curtain Fall)
     const links = document.querySelectorAll('a[href]');
