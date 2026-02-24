@@ -209,10 +209,12 @@ function renderDashboard() {
 function renderItemRow(item, catIdx, itemIdx) {
     const name = item.name['de'] || 'N/A';
     const soldOut = item.isSoldOut === true;
+    const spiciness = parseInt(item.spiciness) || 0;
+    const chilis = spiciness > 0 ? '🌶'.repeat(spiciness) : '';
     return `
         <div class="item-row ${soldOut ? 'is-unavailable' : ''}">
             <div class="item-info">
-                <div class="item-row-name">${name} ${soldOut ? '<span class="badge-aus">AUSVERKAUFT</span>' : ''}</div>
+                <div class="item-row-name">${name} ${chilis} ${soldOut ? '<span class="badge-aus">AUSVERKAUFT</span>' : ''}</div>
                 <div class="item-row-desc">${item.desc?.de || ''}</div>
             </div>
             <div class="item-row-price">€ ${item.price}</div>
@@ -238,6 +240,7 @@ function openItemModal(catIdx, itemIdx = null) {
         document.getElementById('item-available').checked = item.isSoldOut === true;
         document.getElementById('item-desc-de').value = item.desc?.de || '';
         document.getElementById('item-desc-en').value = item.desc?.en || '';
+        document.getElementById('item-spiciness').value = item.spiciness || '';
     } else {
         modalTitle.textContent = 'Gericht hinzufügen';
     }
@@ -259,7 +262,8 @@ itemForm.onsubmit = (e) => {
             en: document.getElementById('item-name-en').value.trim()
         },
         price: document.getElementById('item-price').value.trim(),
-        isSoldOut: document.getElementById('item-available').checked
+        isSoldOut: document.getElementById('item-available').checked,
+        spiciness: document.getElementById('item-spiciness').value
     };
 
     const descDe = document.getElementById('item-desc-de').value.trim();

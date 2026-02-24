@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Montserrat:wght@300;400;600&family=Tenor+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Tenor+Sans&display=swap');
+
+@font-face {
+    font-family: 'Stylish Classy Font';
+    src: url('font/stylish-classy-font/Stylish Classy Font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 :root {
     /* PDF Accurate Theme - Dark Gray & Cream/Gold */
     --color-white: #FFFFFF;
-    --color-bg-pdf: #3d3d3d;    /* PDF Background color */
-    --color-text-pdf: #FFFFFF;  /* White text on dark bg */
-    --color-accent-pdf: #e3c49e; /* Muted gold/cream for accents */
+    --color-bg-pdf: #3d3d3d;
+    /* PDF Background color */
+    --color-text-pdf: #FFFFFF;
+    /* White text on dark bg */
+    --color-accent-pdf: #e3c49e;
+    /* Muted gold/cream for accents */
     --color-gray: #aaaaaa;
 
     /* Palette mapping */
@@ -16,7 +26,8 @@
     --accent: var(--color-accent-pdf);
 
     /* Typography - Replicating PDF */
-    --font-heading: 'Dancing Script', cursive; /* Script for sections */
+    --font-heading: 'Stylish Classy Font', cursive;
+    /* Custom Stylish font from PDF */
     --font-body: 'Montserrat', sans-serif;
     --font-accent: 'Tenor Sans', sans-serif;
 

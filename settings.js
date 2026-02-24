@@ -19,7 +19,7 @@ const SETTINGS = {
         accentSecondary: "#aaaaaa",
         textPrimary: "#ffffff",
         textSecondary: "rgba(255,255,255,0.6)",
-        fontHeading: "'Dancing Script', cursive",
+        fontHeading: "'Stylish Classy Font', cursive",
         fontBody: "'Montserrat', sans-serif"
     },
 
