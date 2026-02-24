@@ -13,12 +13,20 @@
       "items": [
         {
           "name": {
-            "de": "Basil Chicken AFN"
+            "de": "Basil Chicken AFN",
+            "en": ""
           },
+          "price": "12,9",
+          "isSoldOut": false,
+          "spiciness": "1",
+          "allergens": [
+            "H",
+            "L"
+          ],
           "desc": {
-            "de": "Hühnerfleisch | Basilikum | Saisongemüse"
-          },
-          "price": "12,9"
+            "de": "Hühnerfleisch | Basilikum | Saisongemüse",
+            "en": ""
+          }
         },
         {
           "name": {
