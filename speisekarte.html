@@ -4,52 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speisekarte | Alley 28 – Asian Bistro & Fine Dining Graz</title>
+    <title>Speisekarte | East Menu – Asian Fusion & Fine Dining Graz</title>
     <meta name="description"
-        content="Entdecken Sie die Speisekarte des Alley 28 in Graz. Authentische asiatische Küche – Guotie, Baozi, Dim Sum, Ramen und vieles mehr.">
+        content="Entdecken Sie die Speisekarte des East Menu in Graz. Authentische asiatische Fusion-Küche.">
     <script src="settings.js"></script>
     <link rel="stylesheet" href="style.css">
     <style>
         /* ── Speisekarte Page ── */
         .menu-page-hero {
-            background: var(--color-black);
+            background: var(--bg-primary);
             padding: 9rem 0 4.5rem;
             text-align: center;
             position: relative;
             overflow: hidden;
         }
 
-        .menu-page-hero::after {
-            content: 'SPEISEKARTE';
-            position: absolute;
-            font-family: var(--font-display);
-            font-size: clamp(4rem, 14vw, 11rem);
-            color: rgba(255, 255, 255, 0.03);
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            white-space: nowrap;
-            pointer-events: none;
-            letter-spacing: 0.2em;
-        }
-
         .menu-page-hero h1 {
-            font-family: var(--font-display);
-            font-size: clamp(2.5rem, 6vw, 5rem);
-            color: var(--color-white);
-            font-weight: 300;
+            font-family: var(--font-heading);
+            font-size: clamp(3rem, 10vw, 8rem);
+            color: var(--accent);
+            font-weight: 400;
             letter-spacing: 0.05em;
             position: relative;
             z-index: 1;
         }
 
         .menu-page-hero p {
-            font-family: var(--font-accent);
-            font-size: 0.8rem;
-            letter-spacing: 0.4em;
-            color: var(--accent);
-            text-transform: uppercase;
-            margin-bottom: 1rem;
+            font-family: var(--font-body);
+            font-size: 0.9rem;
+            letter-spacing: 0.1em;
+            color: var(--text-primary);
+            margin-bottom: 0.5rem;
             position: relative;
             z-index: 1;
         }
@@ -176,23 +161,18 @@
         }
 
         .menu-section h2 {
-            font-family: var(--font-display);
-            font-size: clamp(1.6rem, 3.5vw, 2.5rem);
-            font-weight: 300;
-            color: var(--color-black);
-            letter-spacing: 0.04em;
+            font-family: var(--font-heading);
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 400;
+            color: var(--accent);
+            letter-spacing: 0.02em;
         }
 
         .items-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 0.25rem 4rem;
-        }
-
-        @media(max-width:680px) {
-            .items-grid {
-                grid-template-columns: 1fr;
-            }
+            grid-template-columns: 1fr;
+            /* Single column 1:1 to PDF */
+            gap: 0.25rem;
         }
 
         .menu-item {
@@ -249,10 +229,10 @@
         }
 
         .item-price {
-            font-family: var(--font-display);
-            font-size: 1.05rem;
-            font-weight: 300;
-            color: var(--color-black);
+            font-family: var(--font-body);
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-primary);
             white-space: nowrap;
         }
 

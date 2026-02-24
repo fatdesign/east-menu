@@ -13,14 +13,14 @@ const SETTINGS = {
 
     // 2. DESIGN TOKENS (Alley 28 Palette)
     theme: {
-        bgPrimary: "#f5f4f2",       // Warm off-white (matches site --bg-primary)
-        bgHeader: "#1a1a1a",        // Black header
-        accentGold: "#BFA882",      // Alley 28 accent gold
-        accentSecondary: "#8c7b6b", // Secondary warm tone
-        textPrimary: "#1a1a1a",     // Dark text on light bg
-        textSecondary: "rgba(26,26,26,0.5)",
-        fontHeading: "'Cormorant Garamond', serif",
-        fontBody: "'DM Sans', sans-serif"
+        bgPrimary: "#3d3d3d",
+        bgHeader: "#2d2d2d",
+        accentGold: "#e3c49e",
+        accentSecondary: "#aaaaaa",
+        textPrimary: "#ffffff",
+        textSecondary: "rgba(255,255,255,0.6)",
+        fontHeading: "'Dancing Script', cursive",
+        fontBody: "'Montserrat', sans-serif"
     },
 
     // 3. API & STORAGE
