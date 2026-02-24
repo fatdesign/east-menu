@@ -50,6 +50,7 @@
         .chili-icon {
             height: 35px;
             width: auto;
+            margin-right: -10px;
         }
 
         .menu-page-hero p {
@@ -431,7 +432,6 @@
     <!-- Hero -->
     <section class="menu-page-hero">
         <div class="container">
-            <img src="image/east-logo.webp" alt="East Menu Logo" class="hero-logo">
             <h1 data-hydrate="restaurantName">EAST MENU</h1>
             <p data-hydrate="tagline">Asian Fusion & Fine Dining · Graz</p>
         </div>
@@ -547,7 +547,7 @@
                         <div class="menu-item ${soldOut ? 'is-sold-out' : ''}" style="transition-delay:${i * 60}ms">
                             <div class="item-header">
                                 <span class="item-name">${name}${chiliHtml}${allergenHtml}</span>
-                                <span class="item-price">€ ${item.price}</span>
+                                <span class="item-price">${item.price}</span>
                             </div>
                             ${desc ? `<p class="item-desc">${desc}</p>` : ''}
                         </div>`;
