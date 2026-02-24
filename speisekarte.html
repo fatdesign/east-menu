@@ -91,6 +91,33 @@
             color: white;
         }
 
+        /* Icon Legend */
+        .icon-legend {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 1.2rem;
+            opacity: 0.7;
+            font-size: 0.62rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            font-family: var(--font-body);
+            position: relative;
+            z-index: 1;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+        }
+
+        .legend-icon {
+            height: 20px;
+            width: auto;
+            vertical-align: middle;
+        }
+
         /* ── 3D Category Wheel ── */
         .cat-wheel-wrap {
             position: sticky;
@@ -442,6 +469,16 @@
         <div class="container">
             <h1 data-hydrate="restaurantName">EAST MENU</h1>
             <p data-hydrate="tagline">Asian Fusion & Fine Dining · Graz</p>
+            <div class="icon-legend">
+                <div class="legend-item">
+                    <img src="image/chili-icon.png" class="legend-icon" alt="Scharf">
+                    <span>Scharf</span>
+                </div>
+                <div class="legend-item">
+                    <img src="image/vegan-icon.PNG" class="legend-icon" alt="Vegan">
+                    <span>Vegan</span>
+                </div>
+            </div>
         </div>
     </section>
 
